@@ -4,7 +4,7 @@ https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.h
 
 ```
 # The default is to run with the -inMemory arg on port 8000
-docker run -i -t realsalmon/dynamodb-local
+docker run -it -p 8000:8000 realsalmon/dynamodb-local
 ```
 
 DynamoDB local accepts the following CLI args
